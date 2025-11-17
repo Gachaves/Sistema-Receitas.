@@ -55,9 +55,8 @@ namespace MealPlannerApp
             Console.WriteLine("Encerrado.");
         }
 
-        // =============================================
+        
         // MÉTODOS DO MENU
-        // =============================================
 
         static void CadastrarReceita(DataStore store)
         {
@@ -167,9 +166,9 @@ namespace MealPlannerApp
         }
     }
 
-    // =============================================
+
     // CLASSES DO SISTEMA
-    // =============================================
+
 
     public class MealPlanner
     {

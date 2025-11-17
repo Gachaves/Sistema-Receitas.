@@ -8,9 +8,9 @@ namespace ConsoleApp1.Tests
 {
     public class AllTests
     {
-        // ============================================================
+      
         // RECIPE TESTS
-        // ============================================================
+        
 
         [Fact]
         public void Recipe_Should_Initialize_Empty()
@@ -54,9 +54,9 @@ namespace ConsoleApp1.Tests
             Assert.Equal(4, r.GetSustainabilityScore());
         }
 
-        // ============================================================
+       
         // INGREDIENT TESTS
-        // ============================================================
+        
 
         [Fact]
         public void Ingredient_Should_Store_Values()
@@ -68,9 +68,9 @@ namespace ConsoleApp1.Tests
             Assert.Equal(3.5, ing.EnvironmentalImpactScore);
         }
 
-        // ============================================================
+       
         // USER TESTS
-        // ============================================================
+       
 
         [Fact]
         public void User_Should_Add_Preference_Once()
@@ -90,9 +90,9 @@ namespace ConsoleApp1.Tests
             Assert.Equal("João", u.Name);
         }
 
-        // ============================================================
+       
         // MEAL PLANNER TESTS
-        // ============================================================
+      
 
         [Fact]
         public void MealPlanner_Should_Suggest_Only_Matching_Tag()
@@ -133,9 +133,9 @@ namespace ConsoleApp1.Tests
             Assert.Equal(2, result.Count);
         }
 
-        // ============================================================
+
         // MENU TESTS
-        // ============================================================
+       
 
         [Fact]
         public void Menu_Should_Add_Recipes()
@@ -149,9 +149,9 @@ namespace ConsoleApp1.Tests
             Assert.Contains(r, menu.Recipes);
         }
 
-        // ============================================================
+     
         // GROCERY LIST TESTS
-        // ============================================================
+      
 
         [Fact]
         public void GroceryList_Should_Count_Ingredients()
@@ -162,7 +162,7 @@ namespace ConsoleApp1.Tests
 
             var menu = new Menu("Jantar");
             menu.AddRecipe(r);
-            menu.AddRecipe(r); // adicionado duas vezes
+            menu.AddRecipe(r); 
 
             var gl = GroceryList.GenerateFromMenu(menu);
 
@@ -190,9 +190,9 @@ namespace ConsoleApp1.Tests
             Assert.Empty(dict);
         }
 
-        // ============================================================
+      
         // CALCULATORS TESTS
-        // ============================================================
+        
 
         [Fact]
         public void NutritionCalculator_Should_Calc_Correctly()
@@ -218,9 +218,9 @@ namespace ConsoleApp1.Tests
             Assert.Equal(4, calc.CalculateScore(r));
         }
 
-        // ============================================================
+       
         // DATASTORE TESTS
-        // ============================================================
+        
 
         [Fact]
         public void DataStore_Should_Add_Recipes()
@@ -233,9 +233,9 @@ namespace ConsoleApp1.Tests
             Assert.Contains(r, store.Recipes);
         }
 
-        // ============================================================
+      
         // NOTIFICATION TEST
-        // ============================================================
+        
 
         [Fact]
         public void Notification_Should_Not_Throw()

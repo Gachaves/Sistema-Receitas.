@@ -5,7 +5,7 @@
 			<DataCollector friendlyName="XPlat Code Coverage">
 				<Configuration>
 					<Exclude>
-						<File>**/Program.cs</File>
+						<Class>MealPlannerApp.Program</Class>
 					</Exclude>
 				</Configuration>
 			</DataCollector>

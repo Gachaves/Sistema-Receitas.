@@ -214,7 +214,7 @@ var assemblies = [
     "name": "ConsoleApp1",
     "classes": [
       { "name": "MealPlannerApp.DataStore", "rp": "ConsoleApp1_DataStore.html", "cl": 1, "ucl": 1, "cal": 2, "tl": 302, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "MealPlannerApp.GroceryList", "rp": "ConsoleApp1_GroceryList.html", "cl": 12, "ucl": 4, "cal": 16, "tl": 302, "cb": 6, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "MealPlannerApp.GroceryList", "rp": "ConsoleApp1_GroceryList.html", "cl": 15, "ucl": 1, "cal": 16, "tl": 302, "cb": 7, "tb": 8, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "MealPlannerApp.Ingredient", "rp": "ConsoleApp1_Ingredient.html", "cl": 9, "ucl": 0, "cal": 9, "tl": 302, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "MealPlannerApp.MealPlanner", "rp": "ConsoleApp1_MealPlanner.html", "cl": 15, "ucl": 0, "cal": 15, "tl": 302, "cb": 6, "tb": 6, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "MealPlannerApp.Menu", "rp": "ConsoleApp1_Menu.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 302, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },

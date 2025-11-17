@@ -15,9 +15,9 @@ namespace MealPlannerApp
             _planner = planner;
         }
 
-        // =================================================
+        
         // MÉTODOS UNIT TESTABLE (SEM CONSOLE)
-        // =================================================
+        
 
         public Recipe CreateRecipe(string name, List<string> tags, List<Ingredient> ingredients)
         {

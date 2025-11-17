@@ -13,9 +13,9 @@ namespace ConsoleApp1.Tests
             return new ProgramService(store, new MealPlanner(store));
         }
 
-        // ===============================================
+       
         // TESTE 1 – CRIAR RECEITA
-        // ===============================================
+       
         [Fact]
         public void ProgramService_Should_Create_Recipe()
         {
@@ -37,9 +37,9 @@ namespace ConsoleApp1.Tests
             Assert.Single(store.Recipes);
         }
 
-        // ===============================================
+        
         // TESTE 2 – LISTAR RECEITAS
-        // ===============================================
+       
         [Fact]
         public void ProgramService_Should_List_Recipes()
         {
@@ -54,9 +54,9 @@ namespace ConsoleApp1.Tests
             Assert.Equal(2, list.Count);
         }
 
-        // ===============================================
+
         // TESTE 3 – SUGESTÃO DE RECEITAS
-        // ===============================================
+        
         [Fact]
         public void ProgramService_Should_Suggest_Recipes_Based_On_Preference()
         {
@@ -79,9 +79,9 @@ namespace ConsoleApp1.Tests
             Assert.Equal("Veg Salada", list[0].Name);
         }
 
-        // ===============================================
+   
         // TESTE 4 – CRIAR MENU E LISTA DE COMPRAS
-        // ===============================================
+       
         [Fact]
         public void ProgramService_Should_Create_Menu_And_GroceryList()
         {
@@ -106,9 +106,9 @@ namespace ConsoleApp1.Tests
             Assert.Equal(1, dict["Molho"]);
         }
 
-        // ===============================================
+       
         // TESTE 5 – CALCULAR CALORIAS
-        // ===============================================
+       
         [Fact]
         public void ProgramService_Should_Calc_Calories()
         {
@@ -126,9 +126,9 @@ namespace ConsoleApp1.Tests
             Assert.Equal(30, result);
         }
 
-        // ===============================================
+        
         // TESTE 6 – CALCULAR SUSTENTABILIDADE
-        // ===============================================
+        
         [Fact]
         public void ProgramService_Should_Calc_Sustainability()
         {
@@ -146,9 +146,9 @@ namespace ConsoleApp1.Tests
             Assert.Equal(4, result);
         }
 
-        // ===============================================
+      
         // TESTE 7 – ERRO AO CALCULAR RECEITA INEXISTENTE
-        // ===============================================
+     
         [Fact]
         public void ProgramService_Should_Throw_When_Recipe_Not_Found()
         {
